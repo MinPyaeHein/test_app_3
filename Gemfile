@@ -67,5 +67,6 @@ group :test do
   gem "selenium-webdriver"
 end
 group :production do
+  gem 'some_gem'
   gem "pg"
 end
